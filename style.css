@@ -1,35 +1,59 @@
-header{
-    margin: 0px;
-    padding: 0px;
-    position: fixed;
-    background-color: black;
-    top: 0px; 
-    right:0;
-    width: 100%;
-}
-#menubar{
-   
-    color: white;
-    float: left;
-    padding: 10px;
-    text-decoration: none;
-    
-}
-#menubar2{
-    color: white;
-    float: right;
-    padding: 10px;
-    
 
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
 }
-div{
-    border: 2px solid palevioletred;
-    display: inline-block;
-    border-radius: 1em;
-    padding: 0.5em;
+header{
+    background-color: #212121;
+    color: white;
+    font-size: 38px;
+    font-weight: bold;
+    width: 100%;
+    position: fixed;
+}
+ul {
+    list-style: none;
+}
+li{
+    display: inline;
+    margin-right: 30px;
+}
+i{
+    display: inline;
+    margin-right: 30px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 20px;
+}
+p{
+    font-weight: 700;
+}
+img {
+    height: 350px;
 }
 button{
+    background-color:blue;
     border: none;
-    background-color: transparent;
-    cursor: pointer;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+    border-radius:  12px;
 }
+#main{
+    padding-top: 100px;
+}
+.productCardClass:nth-of-type(even) { 
+
+    padding: 30px 0px;
+    text-align: center;
+    flex-direction: row;
+        background-color: #F5F5F5;
+     }
